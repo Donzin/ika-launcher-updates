@@ -1,0 +1,13 @@
+ATUALIZACAO ONLINE IKA GAMING CONCLUIDA
+
+Este arquivo foi recebido diretamente pelo atualizador online do launcher.
+
+O teste confirma:
+- acesso ao manifesto hospedado no GitHub;
+- download pela internet;
+- verificacao de tamanho e SHA-256;
+- aplicacao segura no escopo do launcher;
+- funcionamento fora do computador do servidor.
+
+Nenhum arquivo do WoW, MPQ, servidor ou banco de dados foi alterado.
+
