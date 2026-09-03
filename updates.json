@@ -1,14 +1,14 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.5.1-TESTE-ONLINE",
+  "ReleaseVersion": "0.5.2-TESTE-REDE-02",
   "GeneratedAtUtc": "2026-09-03T00:00:00Z",
   "Files": [
     {
       "Scope": "launcher",
-      "Path": "TESTE-ONLINE-IKA.txt",
-      "Url": "update-payload/launcher/TESTE-ONLINE-IKA.txt",
-      "Size": 401,
-      "Sha256": "c95511ef422262e018914b549ac975de916e9be9b9953bd31624b8f1994587d0"
+      "Path": "TESTE-REDE-IKA-v0.5.2.txt",
+      "Url": "update-payload/launcher/TESTE-REDE-IKA-v0.5.2.txt",
+      "Size": 348,
+      "Sha256": "b64174bdf058051cce5214a22408eb160223585e475947dcddf4f2e660ae0516"
     }
   ]
 }
