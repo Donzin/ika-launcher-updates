@@ -1,14 +1,21 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.5.2-TESTE-REDE-02",
-  "GeneratedAtUtc": "2026-09-03T00:00:00Z",
+  "ReleaseVersion": "0.6.4-REFORGE-VISIBILIDADE",
+  "GeneratedAtUtc": "2026-09-04T23:42:37Z",
   "Files": [
     {
-      "Scope": "launcher",
-      "Path": "TESTE-REDE-IKA-v0.5.2.txt",
-      "Url": "update-payload/launcher/TESTE-REDE-IKA-v0.5.2.txt",
-      "Size": 348,
-      "Sha256": "b64174bdf058051cce5214a22408eb160223585e475947dcddf4f2e660ae0516"
+      "Scope": "client",
+      "Path": "Interface/AddOns/IKAForge/IKAForge.lua",
+      "Url": "update-payload/client/Interface/AddOns/IKAForge/IKAForge.lua",
+      "Size": 88950,
+      "Sha256": "6fadfc1df588185e7c11d6f449704203ee455eafbe1fee4eca368f7a2928a8bd"
+    },
+    {
+      "Scope": "client",
+      "Path": "Interface/IKAForge/IKAForge.lua",
+      "Url": "update-payload/client/Interface/IKAForge/IKAForge.lua",
+      "Size": 88950,
+      "Sha256": "6fadfc1df588185e7c11d6f449704203ee455eafbe1fee4eca368f7a2928a8bd"
     }
   ]
 }
