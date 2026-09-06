@@ -1,0 +1,891 @@
+{
+  "npc": {
+    "Entry": 919600,
+    "Name": "Mestre das Habilidades IKA",
+    "SubName": "Ensinamentos de Classe",
+    "MinLevel": 70,
+    "MaxLevel": 70,
+    "DisplayId1": 17822,
+    "DisplayIdProbability1": 100,
+    "Faction": 35,
+    "Scale": 1,
+    "CreatureType": 7,
+    "InhabitType": 3,
+    "RegenerateStats": 3,
+    "NpcFlags": 2,
+    "UnitFlags": 2,
+    "UnitClass": 1,
+    "SpeedWalk": 1,
+    "SpeedRun": 1.14286,
+    "MinLevelHealth": 10000,
+    "MaxLevelHealth": 10000,
+    "MeleeBaseAttackTime": 2000,
+    "RangedBaseAttackTime": 2000,
+    "GossipMenuId": 0,
+    "AIName": "",
+    "ScriptName": ""
+  },
+  "lessons": [
+    {
+      "id": 919601,
+      "cls": 1,
+      "level": 10,
+      "title": "Postura Defensiva",
+      "teach": 8121,
+      "source": 1498,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Postura Defensiva, Provocar e Fendimento de Armadura (primeiro grau).",
+      "learned": [
+        71,
+        7386,
+        355
+      ]
+    },
+    {
+      "id": 919602,
+      "cls": 1,
+      "level": 30,
+      "title": "Postura Berserker",
+      "teach": 8616,
+      "source": 1719,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Postura Berserker e Interceptar.",
+      "learned": [
+        2458,
+        20252
+      ]
+    },
+    {
+      "id": 919603,
+      "cls": 2,
+      "level": 12,
+      "title": "Redenção",
+      "teach": 7329,
+      "source": 1788,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a ressuscitar aliados fora de combate (primeiro grau).",
+      "learned": [
+        7328
+      ]
+    },
+    {
+      "id": 919604,
+      "cls": 2,
+      "level": 20,
+      "title": "Sentir Mortos-vivos",
+      "teach": 5503,
+      "source": 1652,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a rastrear mortos-vivos. Esta lição entrega somente a habilidade.",
+      "learned": [
+        5502
+      ]
+    },
+    {
+      "id": 919605,
+      "cls": 2,
+      "level": 30,
+      "title": "Cavalo de Guerra - Aliança",
+      "teach": 13820,
+      "source": 1661,
+      "race": 1029,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a invocar o Cavalo de Guerra da Aliança. O ensino original também concede Montaria de Aprendiz.",
+      "learned": [
+        13819,
+        33388
+      ]
+    },
+    {
+      "id": 919606,
+      "cls": 2,
+      "level": 30,
+      "title": "Cavalo de Guerra - Cavaleiros Sangrentos",
+      "teach": 34768,
+      "source": 9712,
+      "race": 512,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a invocar o Cavalo de Guerra dos Cavaleiros Sangrentos. O ensino original também concede Montaria de Aprendiz.",
+      "learned": [
+        34769,
+        33388
+      ]
+    },
+    {
+      "id": 919607,
+      "cls": 2,
+      "level": 60,
+      "title": "Corcel - Aliança",
+      "teach": 23215,
+      "source": 7647,
+      "race": 1029,
+      "skill": 762,
+      "rank": 75,
+      "item": 0,
+      "repeat": false,
+      "note": "Requer Montaria 75. Aprenda o Corcel da Aliança; o ensino original também concede Montaria de Profissional.",
+      "learned": [
+        23214,
+        33391
+      ]
+    },
+    {
+      "id": 919608,
+      "cls": 2,
+      "level": 60,
+      "title": "Corcel - Cavaleiros Sangrentos",
+      "teach": 34766,
+      "source": 9737,
+      "race": 512,
+      "skill": 762,
+      "rank": 75,
+      "item": 0,
+      "repeat": false,
+      "note": "Requer Montaria 75. Aprenda o Corcel dos Cavaleiros Sangrentos; o ensino original também concede Montaria de Profissional.",
+      "learned": [
+        34767,
+        33391
+      ]
+    },
+    {
+      "id": 919609,
+      "cls": 3,
+      "level": 10,
+      "title": "Domínio das Feras",
+      "teach": 1579,
+      "source": 6082,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Domar Fera, Chamar Ajudante e Dispensar Ajudante. Você ainda deverá domar uma fera apropriada ao seu nível.",
+      "learned": [
+        1515,
+        883,
+        2641
+      ]
+    },
+    {
+      "id": 919610,
+      "cls": 3,
+      "level": 10,
+      "title": "Cuidados e Treinamento do Ajudante",
+      "teach": 5300,
+      "source": 6081,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Alimentar Ajudante, Reviver Ajudante e Treinamento de Feras. Complete também a lição Domínio das Feras. Habilidades posteriores do ajudante seguem sua progressão normal.",
+      "learned": [
+        5149,
+        6991,
+        982
+      ]
+    },
+    {
+      "id": 919611,
+      "cls": 4,
+      "level": 20,
+      "title": "Venenos",
+      "teach": 2995,
+      "source": 2359,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Venenos. A base também ensina Veneno Instantâneo inicial por meio dessa habilidade. Receitas posteriores permanecem nos treinadores.",
+      "learned": [
+        2842
+      ]
+    },
+    {
+      "id": 919612,
+      "cls": 7,
+      "level": 4,
+      "title": "Magia da Terra",
+      "teach": 8073,
+      "source": 1518,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Totem de Pele de Pedra (primeiro grau). Se não possuir o item Totem da Terra, use a lição de reposição correspondente.",
+      "learned": [
+        8071
+      ]
+    },
+    {
+      "id": 919613,
+      "cls": 7,
+      "level": 10,
+      "title": "Magia do Fogo",
+      "teach": 2075,
+      "source": 1527,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Totem Calcinante (primeiro grau). Se não possuir o item Totem do Fogo, use a lição de reposição correspondente.",
+      "learned": [
+        3599
+      ]
+    },
+    {
+      "id": 919614,
+      "cls": 7,
+      "level": 20,
+      "title": "Magia da Água",
+      "teach": 5396,
+      "source": 96,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Totem de Torrente Curativa (primeiro grau). Se não possuir o item Totem da Água, use a lição de reposição correspondente.",
+      "learned": [
+        5394
+      ]
+    },
+    {
+      "id": 919615,
+      "cls": 7,
+      "level": 4,
+      "title": "Receber ou repor Totem da Terra",
+      "teach": 0,
+      "source": 0,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 5175,
+      "repeat": true,
+      "note": "Receba o item Totem da Terra. Deixe um espaço livre na bolsa. Se já possuir esse item na bolsa ou no banco, você não precisa de outra cópia. Esta lição permite reposição após a perda do item. As magias do elemento seguem seus níveis e treinadores normais.",
+      "learned": []
+    },
+    {
+      "id": 919616,
+      "cls": 7,
+      "level": 10,
+      "title": "Receber ou repor Totem do Fogo",
+      "teach": 0,
+      "source": 0,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 5176,
+      "repeat": true,
+      "note": "Receba o item Totem do Fogo. Deixe um espaço livre na bolsa. Se já possuir esse item na bolsa ou no banco, você não precisa de outra cópia. Esta lição permite reposição após a perda do item. As magias do elemento seguem seus níveis e treinadores normais.",
+      "learned": []
+    },
+    {
+      "id": 919617,
+      "cls": 7,
+      "level": 20,
+      "title": "Receber ou repor Totem da Água",
+      "teach": 0,
+      "source": 0,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 5177,
+      "repeat": true,
+      "note": "Receba o item Totem da Água. Deixe um espaço livre na bolsa. Se já possuir esse item na bolsa ou no banco, você não precisa de outra cópia. Esta lição permite reposição após a perda do item. As magias do elemento seguem seus níveis e treinadores normais.",
+      "learned": []
+    },
+    {
+      "id": 919618,
+      "cls": 7,
+      "level": 30,
+      "title": "Receber ou repor Totem do Ar",
+      "teach": 0,
+      "source": 0,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 5178,
+      "repeat": true,
+      "note": "Receba o item Totem do Ar. Deixe um espaço livre na bolsa. Se já possuir esse item na bolsa ou no banco, você não precisa de outra cópia. Esta lição permite reposição após a perda do item. As magias do elemento seguem seus níveis e treinadores normais.",
+      "learned": []
+    },
+    {
+      "id": 919619,
+      "cls": 8,
+      "level": 60,
+      "title": "Conjurar Água - Grau 7",
+      "teach": 10143,
+      "source": 7463,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Conjurar Água (grau 7), conforme o conteúdo do guia. Essa habilidade também já está disponível em treinadores da sua base.",
+      "learned": [
+        10140
+      ]
+    },
+    {
+      "id": 919620,
+      "cls": 8,
+      "level": 60,
+      "title": "Metamorfose: Porco",
+      "teach": 28285,
+      "source": 9364,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a variação de Metamorfose que transforma o alvo em porco.",
+      "learned": [
+        28272
+      ]
+    },
+    {
+      "id": 919621,
+      "cls": 9,
+      "level": 1,
+      "title": "Invocar Diabrete",
+      "teach": 7763,
+      "source": 1470,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Invocar Diabrete. O NPC ensina a invocação; o demônio não é entregue como item.",
+      "learned": [
+        688
+      ]
+    },
+    {
+      "id": 919622,
+      "cls": 9,
+      "level": 10,
+      "title": "Invocar Emissário do Caos",
+      "teach": 11520,
+      "source": 1471,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Invocar Emissário do Caos (Voidwalker).",
+      "learned": [
+        697
+      ]
+    },
+    {
+      "id": 919623,
+      "cls": 9,
+      "level": 20,
+      "title": "Invocar Súcubo",
+      "teach": 11519,
+      "source": 1474,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Invocar Súcubo. Os reagentes normais das invocações continuam necessários.",
+      "learned": [
+        712
+      ]
+    },
+    {
+      "id": 919624,
+      "cls": 9,
+      "level": 30,
+      "title": "Invocar Caçador Vil",
+      "teach": 1373,
+      "source": 1795,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Invocar Caçador Vil (Felhunter).",
+      "learned": [
+        691
+      ]
+    },
+    {
+      "id": 919625,
+      "cls": 9,
+      "level": 30,
+      "title": "Invocar Corcel Vil",
+      "teach": 5785,
+      "source": 4490,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda a montaria Corcel Vil de 60%. O ensino original também concede Montaria de Aprendiz.",
+      "learned": [
+        5784,
+        33388
+      ]
+    },
+    {
+      "id": 919626,
+      "cls": 9,
+      "level": 50,
+      "title": "Infernal",
+      "teach": 1413,
+      "source": 7603,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Inferno, a habilidade de invocação do Infernal. O requisito confirmado na sua base é nível 50. Reagentes e regras de controle continuam normais.",
+      "learned": [
+        1122
+      ]
+    },
+    {
+      "id": 919627,
+      "cls": 9,
+      "level": 60,
+      "title": "Ritual da Perdição",
+      "teach": 20700,
+      "source": 7583,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Ritual da Perdição. Os requisitos de ritual e reagentes da habilidade continuam normais.",
+      "learned": [
+        18540
+      ]
+    },
+    {
+      "id": 919628,
+      "cls": 9,
+      "level": 60,
+      "title": "Invocar Corcel do Medo",
+      "teach": 23160,
+      "source": 7631,
+      "race": 0,
+      "skill": 762,
+      "rank": 75,
+      "item": 0,
+      "repeat": false,
+      "note": "Requer Montaria 75. Aprenda a montaria Corcel do Medo de 100%; o ensino original também concede Montaria de Profissional.",
+      "learned": [
+        23161,
+        33391
+      ]
+    },
+    {
+      "id": 919629,
+      "cls": 11,
+      "level": 10,
+      "title": "Forma de Urso",
+      "teach": 19179,
+      "source": 6001,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Forma de Urso, Rosnar e Espancar (primeiro grau).",
+      "learned": [
+        5487,
+        6795,
+        6807
+      ]
+    },
+    {
+      "id": 919630,
+      "cls": 11,
+      "level": 10,
+      "title": "Teleporte: Clareira da Lua",
+      "teach": 19027,
+      "source": 0,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Teleporte: Clareira da Lua (Moonglade).",
+      "learned": [
+        18960
+      ]
+    },
+    {
+      "id": 919631,
+      "cls": 11,
+      "level": 14,
+      "title": "Curar Veneno",
+      "teach": 8947,
+      "source": 6125,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Curar Veneno. Este desbloqueio de missão também foi identificado no diagnóstico.",
+      "learned": [
+        8946
+      ]
+    },
+    {
+      "id": 919632,
+      "cls": 11,
+      "level": 16,
+      "title": "Forma Aquática",
+      "teach": 1446,
+      "source": 5061,
+      "race": 0,
+      "skill": 0,
+      "rank": 0,
+      "item": 0,
+      "repeat": false,
+      "note": "Aprenda Forma Aquática.",
+      "learned": [
+        1066
+      ]
+    },
+    {
+      "id": 919633,
+      "cls": 11,
+      "level": 70,
+      "title": "Forma de Voo Veloz",
+      "teach": 40123,
+      "source": 11001,
+      "race": 0,
+      "skill": 762,
+      "rank": 300,
+      "item": 0,
+      "repeat": false,
+      "note": "Requer Montaria 300, já aprendida. Esta lição ensina somente a Forma de Voo Veloz; não concede Montaria 300, itens de missão nem a capacidade de invocar Anzu.",
+      "learned": [
+        40120
+      ]
+    }
+  ],
+  "spell_teachers": [
+    {
+      "Id": 1373,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 691,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 1413,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 1122,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 1446,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 1066,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 1579,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 36,
+      "EffectTriggerSpell1": 1515,
+      "EffectTriggerSpell2": 883,
+      "EffectTriggerSpell3": 2641
+    },
+    {
+      "Id": 2075,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 3599,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 2995,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 2842,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 5300,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 36,
+      "EffectTriggerSpell1": 5149,
+      "EffectTriggerSpell2": 6991,
+      "EffectTriggerSpell3": 982
+    },
+    {
+      "Id": 5396,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 5394,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 5503,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 5502,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 5785,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 5784,
+      "EffectTriggerSpell2": 33388,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 7329,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 7328,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 7763,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 688,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 8073,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 8071,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 8121,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 36,
+      "EffectTriggerSpell1": 71,
+      "EffectTriggerSpell2": 7386,
+      "EffectTriggerSpell3": 355
+    },
+    {
+      "Id": 8616,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 2458,
+      "EffectTriggerSpell2": 20252,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 8947,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 8946,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 10143,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 10140,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 11519,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 712,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 11520,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 697,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 13820,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 13819,
+      "EffectTriggerSpell2": 33388,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 19027,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 18960,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 19179,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 36,
+      "EffectTriggerSpell1": 5487,
+      "EffectTriggerSpell2": 6795,
+      "EffectTriggerSpell3": 6807
+    },
+    {
+      "Id": 20700,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 18540,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 23160,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 23161,
+      "EffectTriggerSpell2": 33391,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 23215,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 23214,
+      "EffectTriggerSpell2": 33391,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 28285,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 28272,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 34766,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 34767,
+      "EffectTriggerSpell2": 33391,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 34768,
+      "Effect1": 36,
+      "Effect2": 36,
+      "Effect3": 44,
+      "EffectTriggerSpell1": 34769,
+      "EffectTriggerSpell2": 33388,
+      "EffectTriggerSpell3": 0
+    },
+    {
+      "Id": 40123,
+      "Effect1": 36,
+      "Effect2": 0,
+      "Effect3": 0,
+      "EffectTriggerSpell1": 40120,
+      "EffectTriggerSpell2": 0,
+      "EffectTriggerSpell3": 0
+    }
+  ],
+  "source_quests": [
+    96,
+    1470,
+    1471,
+    1474,
+    1498,
+    1518,
+    1527,
+    1652,
+    1661,
+    1719,
+    1788,
+    1795,
+    2359,
+    4490,
+    5061,
+    6001,
+    6081,
+    6082,
+    6125,
+    7463,
+    7583,
+    7603,
+    7631,
+    7647,
+    9364,
+    9712,
+    9737,
+    11001
+  ]
+}

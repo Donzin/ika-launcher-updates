@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "scope": "Relational model and data validation, using SQLite with MySQL comparisons adapted. Not execution of the MariaDB compound block or the WoW runtime.",
+  "npc": 919600,
+  "lessons": 33,
+  "teaching_spells": 29,
+  "checks": [
+    "Fields and types grounded in supplied SHOW COLUMNS",
+    "Teaching spell effects matched to supplied spell_template records",
+    "Clean install and exact-match reinstall",
+    "Six collision or changed-dependency cases blocked",
+    "Four interrupted-install prefixes resumed without replacing rows",
+    "Native creature and quest fixture rows unchanged",
+    "Class masks; faction-specific paladin mounts; Swift Flight riding 300",
+    "Totem item lessons separated from learning and repeatable without gold",
+    "Removal gated on NPC spawns; native fixture rows preserved"
+  ],
+  "pending": [
+    "Explicit verification of no XP payout and skill persistence after relog; not separately reported by user."
+  ],
+  "server_validation": {
+    "installation": "Successful MariaDB output supplied by user: NPC 919600 and 33 lessons verified.",
+    "class_testing": "User reports all classes tested and working correctly.",
+    "evidence": "User messages in this conversation; not independently observed runtime tests."
+  }
+}
