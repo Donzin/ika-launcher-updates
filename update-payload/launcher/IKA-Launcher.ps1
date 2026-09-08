@@ -56,6 +56,10 @@ function Get-WowExecutable {
     if (Test-Path -LiteralPath $ikaExecutable -PathType Leaf) {
         return $ikaExecutable
     }
+    $testedExecutable = Join-Path $script:Config.ClientPath "Wow-IKA-LoadScreens-TESTE.exe"
+    if (Test-Path -LiteralPath $testedExecutable -PathType Leaf) {
+        return $testedExecutable
+    }
     return Join-Path $script:Config.ClientPath "Wow.exe"
 }
 
