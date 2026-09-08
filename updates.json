@@ -1,7 +1,7 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.6.0-LAUNCHER-LOADSCREENS-HOTFIX",
-  "GeneratedAtUtc": "2026-09-08T20:45:13.184Z",
+  "ReleaseVersion": "0.6.4-REFORGE-VISIBILIDADE",
+  "GeneratedAtUtc": "2026-09-04T23:42:37Z",
   "Files": [
     {
       "Scope": "client",
@@ -16,13 +16,6 @@
       "Url": "update-payload/client/Interface/IKAForge/IKAForge.lua",
       "Size": 88950,
       "Sha256": "6fadfc1df588185e7c11d6f449704203ee455eafbe1fee4eca368f7a2928a8bd"
-    },
-    {
-      "Scope": "launcher",
-      "Path": "IKA-Launcher.ps1",
-      "Url": "update-payload/launcher/IKA-Launcher.ps1",
-      "Size": 67898,
-      "Sha256": "474911b2c3e6df97f745584c31655a03abf652181288107a4936b20d5ba50f81"
     }
   ]
 }
