@@ -1,7 +1,7 @@
 {
   "SchemaVersion": 1,
-  "ReleaseVersion": "0.6.0-LOADSCREENS-OFICIAL",
-  "GeneratedAtUtc": "2026-09-08T23:36:54.635Z",
+  "ReleaseVersion": "0.6.1-CRITICO-PILOTO-COMPAT",
+  "GeneratedAtUtc": "2026-09-09T16:56:57Z",
   "Files": [
     {
       "Scope": "client",
@@ -21,8 +21,8 @@
       "Scope": "launcher",
       "Path": "IKA-Launcher.ps1",
       "Url": "update-payload/launcher/IKA-Launcher.ps1",
-      "Size": 67898,
-      "Sha256": "474911b2c3e6df97f745584c31655a03abf652181288107a4936b20d5ba50f81"
+      "Size": 68043,
+      "Sha256": "ef7eec8cab3d77c0012d66c48b68f12e2d2cba5763fd0a06d2e4774e5e1549d4"
     },
     {
       "Scope": "client",
