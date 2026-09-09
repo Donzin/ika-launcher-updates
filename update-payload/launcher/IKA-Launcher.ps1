@@ -7,7 +7,7 @@ Add-Type -AssemblyName System.Windows.Forms
 $script:LauncherDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $script:ConfigPath = Join-Path $script:LauncherDir "config.json"
 $script:DefaultClientPath = "C:\mangos\client-2.4.3"
-$script:LauncherVersion = "0.6.0"
+$script:LauncherVersion = "0.6.1"
 $script:UpdateSourcePath = Join-Path $script:LauncherDir "update-source.json"
 $script:UpdateStagingRoot = Join-Path $script:LauncherDir "ika-update-staging"
 $script:UpdateBackupRoot = Join-Path $script:LauncherDir "ika-update-backups"
@@ -220,11 +220,15 @@ function Install-PendingLoadScreens {
 
     $archiveHash = "db1b9b945963063b297235fd87035955d578b6994a9d42c2f24efee1bbd08e68"
     $exeHash = "c1f14dbcb1e274d7d67eac479dcdb81479994373dcd922908c7ea12f06899f8f"
+    $acceptedExeHashes = @(
+        $exeHash,
+        "5f45dd92f8ff6a9f6265b341354c690b427454a9aea3525f947738ab5553185c"
+    )
     $mpqHash = "a7e43a8b43fcad72a20a22bf038f44747e2b4e464a11114edd9fa1638c174666"
     $targetExe = Join-Path $script:Config.ClientPath "Wow-IKA-LoadScreens.exe"
     $targetMpq = Join-Path $script:Config.ClientPath "Data\patch-Y.MPQ"
 
-    if ((Get-FileSha256 $targetExe) -eq $exeHash -and
+    if (($acceptedExeHashes -contains (Get-FileSha256 $targetExe)) -and
         (Get-FileSha256 $targetMpq) -eq $mpqHash) {
         return $false
     }
