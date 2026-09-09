@@ -1,6 +1,12 @@
 # ika-launcher-updates
 Atualizações oficiais do IKA Gaming Launcher
 
+## Compatibilidade do piloto de crítico — launcher v0.6.1
+
+O launcher preserva tanto o executável oficial das LoadScreens v0.6 quanto o
+executável local do piloto de crítico previamente instalado e validado por
+SHA-256. O piloto não é distribuído automaticamente aos jogadores.
+
 ## Atualizações do servidor
 
 ### Mestre das Habilidades IKA — v1.0
